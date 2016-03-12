@@ -5,7 +5,14 @@ This hacky script searches through all the BitBucket repos in your account, chec
 If you need to do extensive manipulations, I recommend you use something like [BFG](https://rtyley.github.io/bfg-repo-cleaner/) to help you out. 
 
 ### Usage
-You must provide a `secrets.json` for your login config to bitbucket. This is ignored by git, be sure it stays that way!
+You must provide a `secrets.json` for your login config to bitbucket:
+
+        {
+            "username": "user"
+            "password": "****"
+        }
+        
+This is ignored by git, be sure it stays that way!
 
     node scan_repos.js [options] 
 
