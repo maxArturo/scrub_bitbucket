@@ -1,0 +1,17 @@
+{
+  "name": "check_bitbucket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scan_repos.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bitbucket-api": "0.0.7",
+    "minimist": "1.2.0",
+    "shelljs": "0.6.0"
+  },
+  "private": true
+}
